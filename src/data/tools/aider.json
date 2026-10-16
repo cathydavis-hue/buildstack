@@ -1,0 +1,31 @@
+{
+ "slug": "aider",
+ "name": "Aider",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://aider.chat",
+ "scores": {
+  "quality": 24,
+  "ease": 10,
+  "value": 14,
+  "shipability": 13,
+  "momentum": 8,
+  "trust": 9
+ },
+ "score": 78,
+ "verdict": "Open-source terminal pair programmer that edits your git repo with clean commits.",
+ "pros": [
+  "Free and open source",
+  "Git-native commits",
+  "Works with many models"
+ ],
+ "cons": [
+  "Command line only",
+  "Steeper learning curve"
+ ],
+ "bestFor": "Terminal users on a budget",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

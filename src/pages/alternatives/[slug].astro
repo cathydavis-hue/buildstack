@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro'; import ToolCard from '../../components/ToolCard.astro';
+import { bySlug, ALTS, tools, SITE } from '../../lib/data.js';
+export function getStaticPaths(){ return ALTS.map(s=>({params:{slug:s},props:{t:bySlug(s)}})); }
+const { t } = Astro.props;
+const alts = tools.filter(x=>x.slug!==t.slug && (x.category===t.category || (t.category==='app-builders'&&x.category==='no-code'))).slice(0,6);
+const schema={"@context":"https://schema.org","@type":"ItemList","name":`${t.name} alternatives`,"itemListElement":alts.map((x,i)=>({"@type":"ListItem","position":i+1,"url":`${SITE}/tools/${x.slug}/`,"name":x.name}))};
+---
+<Base title={`Best ${t.name} alternatives in 2026 | Build Stack`} description={`Top alternatives to ${t.name}: ${alts.slice(0,3).map(x=>x.name).join(', ')} and more, ranked by Build Score.`} schema={schema} path={`/alternatives/${t.slug}/`}>
+<div class="hero"><h1>Best {t.name} alternatives</h1><p>The strongest alternative is <strong>{alts[0].name}</strong>. {alts[0].verdict}</p></div>
+<div class="grid">{alts.map((x,i)=><ToolCard t={x} rank={i+1}/>)}</div></Base>

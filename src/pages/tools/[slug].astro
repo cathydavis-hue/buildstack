@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro'; import Signup from '../../components/Signup.astro';
+import { tools, WEIGHTS, SITE, PAIRS, ALTS } from '../../lib/data.js';
+export function getStaticPaths(){ return tools.map(t=>({params:{slug:t.slug},props:{t}})); }
+const { t } = Astro.props;
+const pairs = PAIRS.filter(p=>p.includes(t.slug));
+const schema={"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","name":t.name,"url":t.url,"applicationCategory":"DeveloperApplication","description":t.verdict,"review":{"@type":"Review","author":{"@type":"Organization","name":"Build Stack"},"datePublished":t.lastReviewed,"reviewBody":t.verdict,"reviewRating":{"@type":"Rating","ratingValue":t.score,"bestRating":100,"worstRating":0}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Build Stack","item":SITE+"/"},{"@type":"ListItem","position":2,"name":t.categoryName,"item":`${SITE}/category/${t.category}/`},{"@type":"ListItem","position":3,"name":t.name}]}]};
+---
+<Base title={`${t.name} review & Build Score (2026) — Build Stack`} description={t.verdict} schema={schema} path={`/tools/${t.slug}/`}>
+<p class="mut" style="margin-top:28px"><a href={`/category/${t.category}/`}>{t.categoryName}</a></p>
+<h1>{t.name} <span class="score">{t.score}/100</span></h1>
+<p style="font-size:18px"><strong>Verdict:</strong> {t.verdict}</p>
+<p><strong>Best for:</strong> {t.bestFor} · <a href={t.url} rel="nofollow noopener" target="_blank">Official site ↗</a></p>
+<p class="note">{t.assessment}. Last reviewed {t.lastReviewed}.</p>
+<h2>Build Score breakdown</h2><table>{WEIGHTS.map(([k,l,w])=><tr><td>{l}</td><td>{t.scores[k]} / {w}</td><td><div class="bar"><i style={`width:${t.scores[k]/w*100}%`}></i></div></td></tr>)}</table>
+<div class="grid"><div class="card"><h3>Pros</h3><ul>{t.pros.map(p=><li>{p}</li>)}</ul></div><div class="card"><h3>Cons</h3><ul>{t.cons.map(p=><li>{p}</li>)}</ul></div></div>
+<h2>Pricing</h2><p class="mut">{t.pricingNote} <a href={t.url} rel="nofollow noopener">Check {t.name} pricing ↗</a></p>
+{(pairs.length>0||ALTS.includes(t.slug))&&<h2>Compare</h2>}
+<ul>{pairs.map(p=><li><a href={`/compare/${p[0]}-vs-${p[1]}/`}>{tools.find(x=>x.slug===p[0]).name} vs {tools.find(x=>x.slug===p[1]).name}</a></li>)}{ALTS.includes(t.slug)&&<li><a href={`/alternatives/${t.slug}/`}>Best {t.name} alternatives</a></li>}</ul>
+<Signup/>
+</Base>

@@ -1,0 +1,31 @@
+{
+ "slug": "builder-io",
+ "name": "Builder.io",
+ "category": "design-to-code",
+ "categoryName": "Design-to-Code & AI Site Builders",
+ "url": "https://builder.io",
+ "scores": {
+  "quality": 23,
+  "ease": 14,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 8,
+  "trust": 8
+ },
+ "score": 77,
+ "verdict": "Visual development platform that converts Figma to code and lets AI edit real codebases.",
+ "pros": [
+  "Figma-to-code",
+  "Works with existing frameworks",
+  "Visual CMS"
+ ],
+ "cons": [
+  "Aimed at teams",
+  "Setup for full value"
+ ],
+ "bestFor": "Teams bridging design and code",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

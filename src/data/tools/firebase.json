@@ -1,0 +1,31 @@
+{
+ "slug": "firebase",
+ "name": "Firebase",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://firebase.google.com",
+ "scores": {
+  "quality": 25,
+  "ease": 15,
+  "value": 12,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 9
+ },
+ "score": 83,
+ "verdict": "Google's app backend with auth, database, hosting and AI app tooling (Firebase Studio).",
+ "pros": [
+  "Google scale",
+  "Strong mobile SDKs",
+  "Hosting included"
+ ],
+ "cons": [
+  "NoSQL model surprises some",
+  "Google lock-in"
+ ],
+ "bestFor": "Mobile and Google ecosystem",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

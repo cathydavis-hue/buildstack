@@ -1,0 +1,31 @@
+{
+ "slug": "windsurf",
+ "name": "Windsurf",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://windsurf.com",
+ "scores": {
+  "quality": 26,
+  "ease": 15,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 8,
+  "trust": 7
+ },
+ "score": 80,
+ "verdict": "Agentic IDE with its Cascade agent for multi-step coding tasks.",
+ "pros": [
+  "Strong agent flow",
+  "Generous free tier historically",
+  "Good context handling"
+ ],
+ "cons": [
+  "Ownership changes in 2025 add uncertainty",
+  "Overlaps heavily with Cursor"
+ ],
+ "bestFor": "Agent-driven coding",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

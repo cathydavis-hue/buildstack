@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro'; import ToolCard from '../components/ToolCard.astro'; import Signup from '../components/Signup.astro';
+import { tools, categories, inCat, SITE } from '../lib/data.js';
+const schema={"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"Build Stack","url":SITE},{"@type":"WebSite","name":"Build Stack","url":SITE},{"@type":"ItemList","name":"Top AI tools for vibe coding and building","itemListElement":tools.slice(0,10).map((t,i)=>({"@type":"ListItem","position":i+1,"url":`${SITE}/tools/${t.slug}/`,"name":t.name}))}]};
+---
+<Base title="Build Stack — The ranked directory of AI tools for vibe coding & building" description="Ranked, opinionated directory of AI app builders, coding agents, design-to-code and backend tools. Transparent Build Score methodology." schema={schema}>
+<div class="hero"><h1>The best AI tools for <span style="color:var(--acc2)">vibe coding</span> and building.</h1><p>{tools.length} tools ranked with a transparent Build Score. No pay-to-rank, ever.</p><a class="btn" href="#top">See the rankings</a></div>
+<p class="note">Scores are an initial editorial assessment as of Oct 2026. Hands-on benchmark testing is in progress; see <a href="/methodology/">methodology</a>.</p>
+{categories.map(c=>(<section><h2 id={c.slug==='app-builders'?'top':undefined}><a href={`/category/${c.slug}/`}>{c.name}</a></h2><div class="grid">{inCat(c.slug).slice(0,3).map((t,i)=><ToolCard t={t} rank={i+1}/>)}</div><p><a href={`/category/${c.slug}/`}>All {c.name.toLowerCase()} →</a></p></section>))}
+<Signup/>
+</Base>

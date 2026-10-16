@@ -1,0 +1,31 @@
+{
+ "slug": "glide",
+ "name": "Glide",
+ "category": "no-code",
+ "categoryName": "No-Code App Platforms",
+ "url": "https://glideapps.com",
+ "scores": {
+  "quality": 21,
+  "ease": 18,
+  "value": 11,
+  "shipability": 11,
+  "momentum": 8,
+  "trust": 8
+ },
+ "score": 77,
+ "verdict": "No-code business apps from spreadsheets and data, with AI features.",
+ "pros": [
+  "Mobile-friendly apps fast",
+  "Great for ops teams",
+  "Simple data model"
+ ],
+ "cons": [
+  "Not for consumer-scale apps",
+  "Usage-based limits"
+ ],
+ "bestFor": "Business ops apps",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

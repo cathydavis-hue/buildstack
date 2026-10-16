@@ -1,0 +1,31 @@
+{
+ "slug": "v0",
+ "name": "v0 by Vercel",
+ "category": "app-builders",
+ "categoryName": "AI App Builders",
+ "url": "https://v0.app",
+ "scores": {
+  "quality": 26,
+  "ease": 17,
+  "value": 11,
+  "shipability": 14,
+  "momentum": 9,
+  "trust": 7
+ },
+ "score": 84,
+ "verdict": "Vercel's generator for React/Next.js UIs and apps, with one-click deploy to Vercel.",
+ "pros": [
+  "High-quality React/Tailwind UI",
+  "Tight Vercel deploy",
+  "shadcn/ui based"
+ ],
+ "cons": [
+  "Best within the Vercel/Next.js ecosystem",
+  "Backend features less mature than UI"
+ ],
+ "bestFor": "Front-end and Next.js builders",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

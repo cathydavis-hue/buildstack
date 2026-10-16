@@ -1,0 +1,31 @@
+{
+ "slug": "vercel",
+ "name": "Vercel",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://vercel.com",
+ "scores": {
+  "quality": 27,
+  "ease": 16,
+  "value": 11,
+  "shipability": 15,
+  "momentum": 10,
+  "trust": 8
+ },
+ "score": 87,
+ "verdict": "Frontend cloud for deploying Next.js and other frameworks with previews and edge functions.",
+ "pros": [
+  "Git push to deploy",
+  "Preview URLs",
+  "Best Next.js support"
+ ],
+ "cons": [
+  "Hobby plan is non-commercial",
+  "Bills can spike with traffic"
+ ],
+ "bestFor": "Deploying front-ends",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

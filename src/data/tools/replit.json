@@ -1,0 +1,31 @@
+{
+ "slug": "replit",
+ "name": "Replit Agent",
+ "category": "app-builders",
+ "categoryName": "AI App Builders",
+ "url": "https://replit.com",
+ "scores": {
+  "quality": 24,
+  "ease": 18,
+  "value": 10,
+  "shipability": 14,
+  "momentum": 9,
+  "trust": 7
+ },
+ "score": 82,
+ "verdict": "Cloud IDE whose Agent builds, hosts and deploys apps end to end, including databases.",
+ "pros": [
+  "Hosting, DB and deploy in one place",
+  "Works from phone or browser",
+  "Large community"
+ ],
+ "cons": [
+  "Usage-based agent pricing",
+  "Lock-in to Replit hosting by default"
+ ],
+ "bestFor": "All-in-one build and host",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

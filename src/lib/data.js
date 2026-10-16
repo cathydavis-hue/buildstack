@@ -1,0 +1,10 @@
+import cats from '../data/categories.json';
+const mods = import.meta.glob('../data/tools/*.json', { eager: true });
+export const tools = Object.values(mods).map(m => m.default).sort((a,b)=>b.score-a.score);
+export const categories = cats;
+export const bySlug = s => tools.find(t => t.slug === s);
+export const inCat = c => tools.filter(t => t.category === c);
+export const SITE = 'https://buildstacklist.com';
+export const WEIGHTS = [['quality','Output quality',30],['ease','Ease for non-coders',20],['value','Pricing & value',15],['shipability','Ship-ability (deploy, export, integrations)',15],['momentum','Momentum & support',10],['trust','Trust & lock-in',10]];
+export const PAIRS = [['cursor','windsurf'],['cursor','claude-code'],['claude-code','openai-codex'],['cursor','github-copilot'],['lovable','bolt-new'],['lovable','v0'],['bolt-new','v0'],['lovable','replit'],['supabase','firebase'],['vercel','netlify'],['framer','webflow'],['cline','aider']];
+export const ALTS = ['cursor','lovable','bolt-new','replit','v0'];

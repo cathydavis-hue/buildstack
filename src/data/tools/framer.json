@@ -1,0 +1,31 @@
+{
+ "slug": "framer",
+ "name": "Framer",
+ "category": "design-to-code",
+ "categoryName": "Design-to-Code & AI Site Builders",
+ "url": "https://framer.com",
+ "scores": {
+  "quality": 25,
+  "ease": 18,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 8
+ },
+ "score": 84,
+ "verdict": "Design-first website builder with AI page generation, CMS and hosting.",
+ "pros": [
+  "Beautiful sites fast",
+  "Built-in CMS and hosting",
+  "Great animations"
+ ],
+ "cons": [
+  "Websites, not full apps",
+  "Per-site pricing"
+ ],
+ "bestFor": "Marketing sites and landing pages",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

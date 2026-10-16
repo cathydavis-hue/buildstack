@@ -1,0 +1,31 @@
+{
+ "slug": "convex",
+ "name": "Convex",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://convex.dev",
+ "scores": {
+  "quality": 25,
+  "ease": 13,
+  "value": 12,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 8
+ },
+ "score": 80,
+ "verdict": "Reactive TypeScript backend where database, functions and realtime sync live in code.",
+ "pros": [
+  "Realtime by default",
+  "AI-friendly typed code",
+  "Good DX"
+ ],
+ "cons": [
+  "Different model than SQL",
+  "Smaller ecosystem"
+ ],
+ "bestFor": "Realtime TypeScript apps",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

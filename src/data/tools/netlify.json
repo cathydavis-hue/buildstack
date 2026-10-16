@@ -1,0 +1,31 @@
+{
+ "slug": "netlify",
+ "name": "Netlify",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://netlify.com",
+ "scores": {
+  "quality": 25,
+  "ease": 16,
+  "value": 12,
+  "shipability": 14,
+  "momentum": 8,
+  "trust": 8
+ },
+ "score": 83,
+ "verdict": "Git-based hosting for static and Jamstack sites with forms and functions.",
+ "pros": [
+  "Simple deploys",
+  "Built-in forms",
+  "Framework agnostic"
+ ],
+ "cons": [
+  "Usage-based limits",
+  "Less momentum than Vercel"
+ ],
+ "bestFor": "Static sites",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

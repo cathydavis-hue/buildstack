@@ -1,0 +1,31 @@
+{
+ "slug": "railway",
+ "name": "Railway",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://railway.com",
+ "scores": {
+  "quality": 24,
+  "ease": 15,
+  "value": 12,
+  "shipability": 14,
+  "momentum": 8,
+  "trust": 7
+ },
+ "score": 80,
+ "verdict": "Deploy apps, databases and workers from a repo with usage-based pricing.",
+ "pros": [
+  "Any language/backend",
+  "Databases in a click",
+  "Clean UI"
+ ],
+ "cons": [
+  "Usage billing needs watching",
+  "Fewer regions than big clouds"
+ ],
+ "bestFor": "Full backends and workers",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

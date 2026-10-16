@@ -1,0 +1,31 @@
+{
+ "slug": "softr",
+ "name": "Softr",
+ "category": "no-code",
+ "categoryName": "No-Code App Platforms",
+ "url": "https://softr.io",
+ "scores": {
+  "quality": 21,
+  "ease": 18,
+  "value": 12,
+  "shipability": 11,
+  "momentum": 8,
+  "trust": 8
+ },
+ "score": 78,
+ "verdict": "Build portals and internal apps on top of Airtable, Google Sheets, databases and more, with AI.",
+ "pros": [
+  "Fast client portals",
+  "Connects to existing data",
+  "Easy permissions"
+ ],
+ "cons": [
+  "Limited custom logic",
+  "Templates look similar"
+ ],
+ "bestFor": "Portals and internal tools",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

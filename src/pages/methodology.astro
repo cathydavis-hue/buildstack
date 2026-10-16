@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro'; import { WEIGHTS } from '../lib/data.js';
+---
+<Base title="How we rank AI tools — Build Score methodology | Build Stack" description="The Build Score: six weighted criteria, re-tested quarterly, never influenced by sponsors." path="/methodology/">
+<div class="hero"><h1>How the Build Score works</h1><p>Every tool gets a score out of 100 across six weighted criteria.</p></div>
+<table><tr><th>Criterion</th><th>Weight</th></tr>{WEIGHTS.map(([k,l,w])=><tr><td>{l}</td><td>{w}%</td></tr>)}</table>
+<h2>Current status</h2><p>All scores published in October 2026 are an <strong>initial editorial assessment</strong> based on public documentation, product announcements and reputation. They are not yet hands-on benchmark results. We are rolling out standardized tests per category (a landing page, a CRUD app with auth, and a small bug-fix task) and will mark each tool page when its score is test-based.</p>
+<h2>Rules</h2><ul><li>Sponsorship and affiliate relationships never change a score or rank.</li><li>Every page shows its last-reviewed date.</li><li>Scores are revisited at least quarterly and after major releases.</li><li>Found an error? Tell us on X — corrections are welcome.</li></ul></Base>

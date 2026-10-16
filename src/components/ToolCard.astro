@@ -1,0 +1,5 @@
+---
+const { t, rank } = Astro.props;
+---
+<div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><h3>{rank && `#${rank} `}<a href={`/tools/${t.slug}/`}>{t.name}</a></h3><span class="score">{t.score}</span></div>
+<p class="mut">{t.verdict}</p><span class="tag">{t.categoryName}</span> <span class="tag">Best for: {t.bestFor}</span></div>

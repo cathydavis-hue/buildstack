@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import { bySlug, PAIRS, WEIGHTS } from '../../lib/data.js';
+export function getStaticPaths(){ return PAIRS.map(([a,b])=>({params:{pair:`${a}-vs-${b}`},props:{a:bySlug(a),b:bySlug(b)}})); }
+const { a, b } = Astro.props; const w = a.score>=b.score?a:b; const l = w===a?b:a;
+const q=[[`Is ${a.name} better than ${b.name}?`,`On our initial editorial assessment ${w.name} scores ${w.score} vs ${l.score}. ${w.name} is best for ${w.bestFor.toLowerCase()}; ${l.name} is best for ${l.bestFor.toLowerCase()}.`],[`Which is easier for beginners?`,`${a.scores.ease>=b.scores.ease?a.name:b.name} scores higher on ease for non-coders.`]];
+const schema={"@context":"https://schema.org","@type":"FAQPage","mainEntity":q.map(([n,t])=>({"@type":"Question","name":n,"acceptedAnswer":{"@type":"Answer","text":t}}))};
+---
+<Base title={`${a.name} vs ${b.name} (2026): Which should you use? | Build Stack`} description={q[0][1]} schema={schema} path={`/compare/${a.slug}-vs-${b.slug}/`}>
+<div class="hero"><h1>{a.name} vs {b.name}</h1><p><strong>Short answer:</strong> {q[0][1]}</p></div>
+<p class="note">Initial editorial assessment; not yet head-to-head benchmarked.</p>
+<table><tr><th>Criterion</th><th>{a.name}</th><th>{b.name}</th></tr>{WEIGHTS.map(([k,lb,wt])=><tr><td>{lb} (/{wt})</td><td>{a.scores[k]}</td><td>{b.scores[k]}</td></tr>)}<tr><th>Build Score</th><th>{a.score}</th><th>{b.score}</th></tr></table>
+<div class="grid">{[a,b].map(t=><div class="card"><h3><a href={`/tools/${t.slug}/`}>{t.name}</a></h3><p class="mut">{t.verdict}</p><p><strong>Pros:</strong> {t.pros.join('; ')}</p><p><strong>Cons:</strong> {t.cons.join('; ')}</p></div>)}</div>
+<h2>FAQ</h2>{q.map(([n,t])=><><h3>{n}</h3><p>{t}</p></>)}
+</Base>

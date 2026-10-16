@@ -1,0 +1,31 @@
+{
+ "slug": "bolt-new",
+ "name": "Bolt.new",
+ "category": "app-builders",
+ "categoryName": "AI App Builders",
+ "url": "https://bolt.new",
+ "scores": {
+  "quality": 25,
+  "ease": 18,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 7
+ },
+ "score": 83,
+ "verdict": "StackBlitz's in-browser builder that writes, runs and deploys full-stack apps from prompts.",
+ "pros": [
+  "Runs a real dev environment in the browser",
+  "Wide framework support",
+  "Fast iteration"
+ ],
+ "cons": [
+  "Token usage can be high on big projects",
+  "Debugging loops on complex apps"
+ ],
+ "bestFor": "Rapid prototypes",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

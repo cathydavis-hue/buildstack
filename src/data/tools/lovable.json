@@ -1,0 +1,31 @@
+{
+ "slug": "lovable",
+ "name": "Lovable",
+ "category": "app-builders",
+ "categoryName": "AI App Builders",
+ "url": "https://lovable.dev",
+ "scores": {
+  "quality": 26,
+  "ease": 18,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 7
+ },
+ "score": 84,
+ "verdict": "Chat-to-full-stack-app builder with a strong Supabase integration; one of the fastest paths from idea to working web app.",
+ "pros": [
+  "Polished UI output",
+  "Built-in Supabase backend/auth",
+  "GitHub sync"
+ ],
+ "cons": [
+  "Credit-based usage can add up",
+  "Complex apps need code review"
+ ],
+ "bestFor": "Non-coders shipping web apps",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

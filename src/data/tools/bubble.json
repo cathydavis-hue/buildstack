@@ -1,0 +1,31 @@
+{
+ "slug": "bubble",
+ "name": "Bubble",
+ "category": "no-code",
+ "categoryName": "No-Code App Platforms",
+ "url": "https://bubble.io",
+ "scores": {
+  "quality": 23,
+  "ease": 14,
+  "value": 10,
+  "shipability": 12,
+  "momentum": 9,
+  "trust": 9
+ },
+ "score": 77,
+ "verdict": "Mature no-code web app platform with AI app generation and a huge plugin ecosystem.",
+ "pros": [
+  "Very capable for complex apps",
+  "Big community",
+  "Built-in database and workflows"
+ ],
+ "cons": [
+  "Proprietary lock-in",
+  "Performance tuning needed"
+ ],
+ "bestFor": "Complex no-code SaaS",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "coderabbit",
+ "name": "CodeRabbit",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://coderabbit.ai",
+ "scores": {
+  "quality": 24,
+  "ease": 16,
+  "value": 11,
+  "shipability": 12,
+  "momentum": 8,
+  "trust": 8
+ },
+ "score": 79,
+ "verdict": "AI code reviewer that comments on pull requests and summarizes changes.",
+ "pros": [
+  "Catches bugs in AI-written code",
+  "Easy GitHub/GitLab install",
+  "Free for open source"
+ ],
+ "cons": [
+  "Can be noisy without tuning",
+  "Review only, doesn't build"
+ ],
+ "bestFor": "Safety net for vibe-coded PRs",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

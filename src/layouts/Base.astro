@@ -1,0 +1,37 @@
+---
+import { SITE } from '../lib/data.js';
+const { title, description, schema = null, path = '/' } = Astro.props;
+const canonical = SITE + path;
+---
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>{title}</title><meta name="description" content={description}/><link rel="canonical" href={canonical}/>
+<meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:url" content={canonical}/>
+<link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt"/>
+{schema && <script type="application/ld+json" set:html={JSON.stringify(schema)}></script>}
+<style is:global>
+:root{--bg:#0b0d12;--card:#141821;--line:#232937;--fg:#e8ebf2;--mut:#9aa3b5;--acc:#7c5cff;--acc2:#22d3ee}
+*{box-sizing:border-box}body{margin:0;font:16px/1.6 Inter,system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:var(--acc2);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:#0b0d12ee;backdrop-filter:blur(8px);z-index:9}
+header .wrap{display:flex;align-items:center;gap:24px;height:60px}.logo{font-weight:800;font-size:20px;color:var(--fg)}
+.logo span{background:linear-gradient(90deg,var(--acc),var(--acc2));-webkit-background-clip:text;color:transparent}
+nav{display:flex;gap:18px;font-size:14px;flex-wrap:wrap}nav a{color:var(--mut)}
+.hero{padding:64px 0 32px}.hero h1{font-size:44px;line-height:1.1;margin:0 0 12px}.hero p{color:var(--mut);font-size:18px;max-width:640px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.card h3{margin:0 0 6px;font-size:18px}.mut{color:var(--mut);font-size:14px}
+.score{display:inline-block;font-weight:800;padding:2px 10px;border-radius:999px;background:linear-gradient(90deg,var(--acc),var(--acc2));color:#fff;font-size:14px}
+.tag{font-size:12px;color:var(--mut);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+table{width:100%;border-collapse:collapse;margin:12px 0}td,th{border-bottom:1px solid var(--line);padding:8px;text-align:left;font-size:15px}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;min-width:120px}.bar i{display:block;height:100%;background:var(--acc)}
+.btn{display:inline-block;background:var(--acc);color:#fff;padding:10px 18px;border-radius:10px;font-weight:600}
+.note{border-left:3px solid var(--acc2);padding:8px 14px;background:#10202a;border-radius:6px;font-size:14px;color:var(--mut)}
+footer{border-top:1px solid var(--line);margin-top:64px;padding:28px 0;color:var(--mut);font-size:14px}
+section{margin:36px 0}h2{font-size:26px}
+</style></head><body>
+<header><div class="wrap"><a class="logo" href="/">Build<span>Stack</span></a><nav>
+<a href="/category/app-builders/">App builders</a><a href="/category/coding-agents/">Coding agents</a><a href="/category/design-to-code/">Design-to-code</a><a href="/category/backend-deploy/">Backend</a><a href="/compare/">Compare</a><a href="/methodology/">Methodology</a><a href="/newsletter/">Newsletter</a></nav></div></header>
+<main class="wrap"><slot/></main>
+<footer><div class="wrap">© 2026 Build Stack · <a href="/methodology/">How we rank</a> · <a href="/disclosure/">Sponsors & disclosure</a> · <a href="/tools.json">tools.json</a> · <a href="/llms.txt">llms.txt</a><br/>Scores are initial editorial assessments and are never influenced by sponsors.</div></footer>
+</body></html>

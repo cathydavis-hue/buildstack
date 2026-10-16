@@ -1,0 +1,31 @@
+{
+ "slug": "locofy",
+ "name": "Locofy",
+ "category": "design-to-code",
+ "categoryName": "Design-to-Code & AI Site Builders",
+ "url": "https://locofy.ai",
+ "scores": {
+  "quality": 21,
+  "ease": 15,
+  "value": 11,
+  "shipability": 12,
+  "momentum": 7,
+  "trust": 7
+ },
+ "score": 73,
+ "verdict": "Turns Figma/Penpot designs into front-end code for React, Next.js and more.",
+ "pros": [
+  "Real component code",
+  "Multiple frameworks",
+  "Design-tagging workflow"
+ ],
+ "cons": [
+  "Front-end only",
+  "Design files need prep"
+ ],
+ "bestFor": "Design-to-front-end handoff",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

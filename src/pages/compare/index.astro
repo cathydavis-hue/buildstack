@@ -1,0 +1,6 @@
+---
+import Base from '../../layouts/Base.astro'; import { bySlug, PAIRS, ALTS } from '../../lib/data.js';
+---
+<Base title="AI tool comparisons — Build Stack" description="Head-to-head comparisons of AI coding and app-building tools." path="/compare/">
+<div class="hero"><h1>Comparisons</h1></div><ul>{PAIRS.map(([a,b])=><li><a href={`/compare/${a}-vs-${b}/`}>{bySlug(a).name} vs {bySlug(b).name}</a></li>)}</ul>
+<h2>Alternatives</h2><ul>{ALTS.map(s=><li><a href={`/alternatives/${s}/`}>{bySlug(s).name} alternatives</a></li>)}</ul></Base>

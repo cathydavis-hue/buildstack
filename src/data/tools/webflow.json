@@ -1,0 +1,31 @@
+{
+ "slug": "webflow",
+ "name": "Webflow",
+ "category": "design-to-code",
+ "categoryName": "Design-to-Code & AI Site Builders",
+ "url": "https://webflow.com",
+ "scores": {
+  "quality": 25,
+  "ease": 13,
+  "value": 10,
+  "shipability": 14,
+  "momentum": 9,
+  "trust": 9
+ },
+ "score": 80,
+ "verdict": "Professional visual web builder with AI features, CMS and enterprise hosting.",
+ "pros": [
+  "Pixel control",
+  "Strong CMS and SEO",
+  "Mature ecosystem"
+ ],
+ "cons": [
+  "Learning curve",
+  "Pricing tiers are complex"
+ ],
+ "bestFor": "Pro web designers",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

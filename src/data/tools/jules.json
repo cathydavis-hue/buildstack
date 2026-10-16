@@ -1,0 +1,31 @@
+{
+ "slug": "jules",
+ "name": "Google Jules",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://jules.google",
+ "scores": {
+  "quality": 23,
+  "ease": 15,
+  "value": 12,
+  "shipability": 12,
+  "momentum": 8,
+  "trust": 7
+ },
+ "score": 77,
+ "verdict": "Google's asynchronous coding agent that works on GitHub repos and proposes changes.",
+ "pros": [
+  "Async: hand off and come back",
+  "Powered by Gemini",
+  "GitHub based"
+ ],
+ "cons": [
+  "Less interactive than IDE agents",
+  "Newer product"
+ ],
+ "bestFor": "Background bug fixes and chores",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

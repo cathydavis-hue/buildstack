@@ -1,0 +1,31 @@
+{
+ "slug": "claude-code",
+ "name": "Claude Code",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://claude.com/product/claude-code",
+ "scores": {
+  "quality": 29,
+  "ease": 12,
+  "value": 10,
+  "shipability": 14,
+  "momentum": 10,
+  "trust": 8
+ },
+ "score": 83,
+ "verdict": "Anthropic's terminal-based coding agent that plans, edits and runs code across a repo.",
+ "pros": [
+  "Top-tier reasoning on large codebases",
+  "Works in any editor via terminal",
+  "Scriptable/automatable"
+ ],
+ "cons": [
+  "Terminal-first is intimidating for beginners",
+  "Costs tied to Claude plan/API usage"
+ ],
+ "bestFor": "Experienced builders and big refactors",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

@@ -1,0 +1,31 @@
+{
+ "slug": "github-copilot",
+ "name": "GitHub Copilot",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://github.com/features/copilot",
+ "scores": {
+  "quality": 25,
+  "ease": 16,
+  "value": 12,
+  "shipability": 14,
+  "momentum": 9,
+  "trust": 9
+ },
+ "score": 85,
+ "verdict": "GitHub's AI pair programmer with chat and a coding agent that opens pull requests.",
+ "pros": [
+  "Deep GitHub integration",
+  "Works in many IDEs",
+  "Enterprise trust"
+ ],
+ "cons": [
+  "Agent features less bold than rivals",
+  "Best value inside GitHub workflows"
+ ],
+ "bestFor": "Teams already on GitHub",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

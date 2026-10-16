@@ -1,0 +1,31 @@
+{
+ "slug": "supabase",
+ "name": "Supabase",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://supabase.com",
+ "scores": {
+  "quality": 27,
+  "ease": 14,
+  "value": 13,
+  "shipability": 14,
+  "momentum": 10,
+  "trust": 9
+ },
+ "score": 87,
+ "verdict": "Open-source Postgres backend with auth, storage and edge functions; the default backend for many AI builders.",
+ "pros": [
+  "Open source Postgres",
+  "Integrated with Lovable, Bolt, v0",
+  "Generous free tier"
+ ],
+ "cons": [
+  "Requires some database knowledge",
+  "Free projects pause when idle"
+ ],
+ "bestFor": "Backend for vibe-coded apps",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

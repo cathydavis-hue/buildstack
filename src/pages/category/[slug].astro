@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro'; import ToolCard from '../../components/ToolCard.astro';
+import { categories, inCat, SITE } from '../../lib/data.js';
+export function getStaticPaths(){ return categories.map(c=>({params:{slug:c.slug},props:{c}})); }
+const { c } = Astro.props; const list = inCat(c.slug);
+const schema={"@context":"https://schema.org","@type":"ItemList","name":`Best ${c.name} in 2026`,"itemListElement":list.map((t,i)=>({"@type":"ListItem","position":i+1,"url":`${SITE}/tools/${t.slug}/`,"name":t.name}))};
+---
+<Base title={`Best ${c.name} in 2026 — Ranked | Build Stack`} description={`${list.length} ${c.name.toLowerCase()} ranked by Build Score: ${list.slice(0,3).map(t=>t.name).join(', ')} and more.`} schema={schema} path={`/category/${c.slug}/`}>
+<div class="hero"><h1>Best {c.name} in 2026</h1><p>Our top pick is <strong>{list[0].name}</strong> ({list[0].score}/100). {list[0].verdict}</p></div>
+<table><tr><th>#</th><th>Tool</th><th>Build Score</th><th>Best for</th></tr>{list.map((t,i)=><tr><td>{i+1}</td><td><a href={`/tools/${t.slug}/`}>{t.name}</a></td><td>{t.score}</td><td>{t.bestFor}</td></tr>)}</table>
+<div class="grid">{list.map((t,i)=><ToolCard t={t} rank={i+1}/>)}</div>
+</Base>

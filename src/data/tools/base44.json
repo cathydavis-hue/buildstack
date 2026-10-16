@@ -1,0 +1,31 @@
+{
+ "slug": "base44",
+ "name": "Base44",
+ "category": "app-builders",
+ "categoryName": "AI App Builders",
+ "url": "https://base44.com",
+ "scores": {
+  "quality": 23,
+  "ease": 19,
+  "value": 11,
+  "shipability": 12,
+  "momentum": 8,
+  "trust": 7
+ },
+ "score": 80,
+ "verdict": "Wix-owned no-code AI app builder with built-in backend, auth and hosting.",
+ "pros": [
+  "Very beginner friendly",
+  "Backend included",
+  "Fast internal tools"
+ ],
+ "cons": [
+  "Less code-level control",
+  "Younger ecosystem"
+ ],
+ "bestFor": "Internal tools and simple apps",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

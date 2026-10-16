@@ -1,0 +1,22 @@
+[
+ {
+  "slug": "app-builders",
+  "name": "AI App Builders"
+ },
+ {
+  "slug": "coding-agents",
+  "name": "AI Coding IDEs & Agents"
+ },
+ {
+  "slug": "design-to-code",
+  "name": "Design-to-Code & AI Site Builders"
+ },
+ {
+  "slug": "no-code",
+  "name": "No-Code App Platforms"
+ },
+ {
+  "slug": "backend-deploy",
+  "name": "Backend, Auth & Deploy"
+ }
+]

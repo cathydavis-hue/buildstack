@@ -1,0 +1,31 @@
+{
+ "slug": "cline",
+ "name": "Cline",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://cline.bot",
+ "scores": {
+  "quality": 24,
+  "ease": 13,
+  "value": 13,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 8
+ },
+ "score": 80,
+ "verdict": "Open-source autonomous coding agent for VS Code; bring your own model/API key.",
+ "pros": [
+  "Open source",
+  "Any model provider",
+  "Transparent step approvals"
+ ],
+ "cons": [
+  "You manage API costs",
+  "Setup takes effort"
+ ],
+ "bestFor": "Open-source fans",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

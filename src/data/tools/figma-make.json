@@ -1,0 +1,31 @@
+{
+ "slug": "figma-make",
+ "name": "Figma Make",
+ "category": "design-to-code",
+ "categoryName": "Design-to-Code & AI Site Builders",
+ "url": "https://figma.com/make",
+ "scores": {
+  "quality": 23,
+  "ease": 17,
+  "value": 11,
+  "shipability": 11,
+  "momentum": 9,
+  "trust": 8
+ },
+ "score": 79,
+ "verdict": "Prompt-to-prototype and app generation inside Figma, using your designs as context.",
+ "pros": [
+  "Starts from real designs",
+  "Familiar to designers",
+  "Shareable prototypes"
+ ],
+ "cons": [
+  "Production backend limited",
+  "Needs a Figma plan"
+ ],
+ "bestFor": "Designers prototyping",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

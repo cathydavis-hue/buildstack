@@ -1,0 +1,31 @@
+{
+ "slug": "openai-codex",
+ "name": "OpenAI Codex",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://openai.com/codex",
+ "scores": {
+  "quality": 27,
+  "ease": 14,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 10,
+  "trust": 8
+ },
+ "score": 83,
+ "verdict": "OpenAI's coding agent available in the cloud, CLI and IDE, included with ChatGPT plans.",
+ "pros": [
+  "Parallel cloud tasks",
+  "Included with ChatGPT subscriptions",
+  "Strong models"
+ ],
+ "cons": [
+  "Cloud tasks need repo setup",
+  "Workflow still evolving"
+ ],
+ "bestFor": "ChatGPT users delegating tasks",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

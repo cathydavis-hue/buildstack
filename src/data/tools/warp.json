@@ -1,0 +1,31 @@
+{
+ "slug": "warp",
+ "name": "Warp",
+ "category": "coding-agents",
+ "categoryName": "AI Coding IDEs & Agents",
+ "url": "https://warp.dev",
+ "scores": {
+  "quality": 22,
+  "ease": 15,
+  "value": 12,
+  "shipability": 12,
+  "momentum": 8,
+  "trust": 7
+ },
+ "score": 76,
+ "verdict": "AI-powered terminal with agents that run commands and fix errors.",
+ "pros": [
+  "Great terminal UX",
+  "Agents for shell tasks",
+  "Good for DevOps chores"
+ ],
+ "cons": [
+  "Account required",
+  "Not a full code editor"
+ ],
+ "bestFor": "Command-line workflows",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}

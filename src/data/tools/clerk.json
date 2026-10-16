@@ -1,0 +1,31 @@
+{
+ "slug": "clerk",
+ "name": "Clerk",
+ "category": "backend-deploy",
+ "categoryName": "Backend, Auth & Deploy",
+ "url": "https://clerk.com",
+ "scores": {
+  "quality": 25,
+  "ease": 16,
+  "value": 11,
+  "shipability": 13,
+  "momentum": 9,
+  "trust": 8
+ },
+ "score": 82,
+ "verdict": "Drop-in authentication and user management with prebuilt UI components.",
+ "pros": [
+  "Auth in minutes",
+  "Great Next.js support",
+  "Prebuilt UIs"
+ ],
+ "cons": [
+  "Costs scale with users",
+  "Another vendor to manage"
+ ],
+ "bestFor": "Adding login fast",
+ "pricingNote": "See the official pricing page; plans and limits change often and were not independently verified for this listing.",
+ "lastReviewed": "2026-10-15",
+ "assessment": "Initial editorial assessment (not yet hands-on benchmarked)",
+ "affiliate": false
+}
